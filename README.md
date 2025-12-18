@@ -55,21 +55,11 @@ implemented entirely from scratch.
 Three training configurations were evaluated to illustrate different
 model behaviors:
 
-  -----------------------------------------------------------------------------------
-  Scenario   Final Train Loss  Final Val Loss  Val Perplexity   Rationale
-  ---------- ----------------- --------------- ---------------- ---------------------
-  Underfit   4.5732            4.5647          96.03            Small model capacity;
-                                                                high error
-
-  Overfit    2.8521            1.9336          6.91             Large loss gap
-                                                                (+0.918);
-                                                                over-specialization
-
-  Best Fit   0.4013            0.4617          1.59             Optimal
-                                                                generalization;
-                                                                lowest validation
-                                                                error
-  -----------------------------------------------------------------------------------
+ | Scenario | Train Loss | Val Loss | Train PPL | Val PPL | Interpretation |
+|---------|------------|----------|-----------|---------|----------------|
+| Underfit | 4.6379 | 4.6899 | – | 108.84 | Model too small |
+| Overfit | 2.9018 | 2.0058 | 18.21 | 7.43 | Memorization |
+| Best Fit | 0.3513 | 0.3771 | 1.42 | 1.46 | Optimal generalization |
 
 ------------------------------------------------------------------------
 
