@@ -21,6 +21,7 @@ components were implemented manually.
 ## Dataset
 
 -   **Source:** `Pride_and_Prejudice-Jane_Austen.txt` (provided)
+-   **Link :** https://drive.google.com/drive/folders/1_yd3M0figTNBDlTRG48NbHG9h0TfJswi?usp=sharing
 -   **Type:** Plain text (word-level language modeling)
 
 ### Preprocessing Steps
