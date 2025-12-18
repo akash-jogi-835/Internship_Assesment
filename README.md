@@ -77,8 +77,8 @@ model behaviors:
 ### Clone the Repository
 
 ``` bash
-git clone <your-repo-link>
-cd <repository-folder>
+git clone [<your-repo-link>](https://github.com/akash-jogi-835/Internship_Assesment)
+cd Internship_Assesment
 ```
 
 ### Install Dependencies
